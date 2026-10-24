@@ -1,6 +1,6 @@
 # Úkol 1 – LLM API + tool calling (ReAct agent)
 
-![tests](https://github.com/lorimouse/robodreams-ai-agenti/actions/workflows/ukol-01.yml/badge.svg)
+![tests](https://github.com/lorimouse/robotdreams-ai-agenti/actions/workflows/ukol-01.yml/badge.svg)
 
 > **Zadání:** Napiš Python skript, který zavolá LLM API, použije nástroj (např. výpočetní funkci) a vrátí odpověď zpět LLM.
 

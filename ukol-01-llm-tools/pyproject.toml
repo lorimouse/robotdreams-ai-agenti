@@ -1,7 +1,7 @@
 [project]
 name = "ukol-01-llm-tools"
 version = "1.0.0"
-description = "Domácí úkol 1 (Robo Dreams – AI agenti): LLM API + tool calling + ReAct smyčka"
+description = "Domácí úkol 1 (Robot Dreams – AI agenti): LLM API + tool calling + ReAct smyčka"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

@@ -1,6 +1,6 @@
-# Robo Dreams – AI agenti: domácí úkoly
+# Robot Dreams – AI agenti: domácí úkoly
 
-Řešení domácích úkolů z kurzu **AI agenti** (Robo Dreams, lektor Lukáš Kellerstein).
+Řešení domácích úkolů z kurzu **AI agenti** (Robot Dreams, lektor Lukáš Kellerstein).
 
 | # | Úkol | Složka |
 |---|---|---|
