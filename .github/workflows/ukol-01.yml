@@ -1,0 +1,20 @@
+name: ukol-01 tests
+
+on:
+  push:
+    paths: ["ukol-01-llm-tools/**", ".github/workflows/ukol-01.yml"]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ukol-01-llm-tools
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync
+      # Testy nepotřebují API klíč ani internet – LLM i kurzy ČNB jsou mockované.
+      - run: uv run pytest -v

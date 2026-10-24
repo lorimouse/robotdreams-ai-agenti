@@ -1,0 +1,17 @@
+# Aplikace volá alias (model_name), gateway ví, kam ho poslat.
+# Přepnout na jiného providera = změnit 1 řádek tady, ne kód.
+model_list:
+  - model_name: gpt-5.4-nano
+    litellm_params:
+      model: openai/gpt-5.4-nano
+      api_key: os.environ/OPENAI_API_KEY
+
+  # Příklad: lokální model z LM Studia za stejnou gateway
+  # - model_name: gemma-local
+  #   litellm_params:
+  #     model: openai/google/gemma-4-26b-a4b
+  #     api_base: http://host.docker.internal:1234/v1
+  #     api_key: none
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY

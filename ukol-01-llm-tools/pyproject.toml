@@ -1,0 +1,19 @@
+[project]
+name = "ukol-01-llm-tools"
+version = "1.0.0"
+description = "Domácí úkol 1 (Robo Dreams – AI agenti): LLM API + tool calling + ReAct smyčka"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai>=1.66.3",
+    "python-dotenv>=1.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
